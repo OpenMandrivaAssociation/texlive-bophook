@@ -1,3 +1,9 @@
+# revision 17062
+# category Package
+# catalog-ctan /macros/latex/contrib/bophook
+# catalog-date 2006-12-31 16:08:10 +0100
+# catalog-license lppl
+# catalog-version 0.02
 Name:		texlive-bophook
 Version:	0.02
 Release:	1
@@ -43,6 +49,7 @@ the page style).
 #- source
 %doc %{_texmfdistdir}/source/latex/bophook/bophook.dtx
 %doc %{_texmfdistdir}/source/latex/bophook/bophook.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ the page style).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
