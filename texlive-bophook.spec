@@ -50,3 +50,18 @@ the page style).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.02-2
++ Revision: 749842
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.02-1
++ Revision: 717973
+- texlive-bophook
+- texlive-bophook
+- texlive-bophook
+- texlive-bophook
+- texlive-bophook
+
