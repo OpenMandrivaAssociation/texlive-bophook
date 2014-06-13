@@ -6,7 +6,7 @@
 # catalog-version 0.02
 Name:		texlive-bophook
 Version:	0.02
-Release:	6
+Release:	7
 Summary:	Provides an At-Begin-Page hook
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bophook
