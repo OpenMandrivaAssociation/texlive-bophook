@@ -5,9 +5,9 @@ Summary:	Provides an At-Begin-Page hook
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bophook
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.r17062.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.doc.r17062.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.source.r17062.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
