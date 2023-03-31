@@ -1,6 +1,6 @@
 Name:		texlive-bophook
 Version:	17062
-Release:	1
+Release:	2
 Summary:	Provides an At-Begin-Page hook
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bophook
