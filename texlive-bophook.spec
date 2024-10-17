@@ -3,7 +3,7 @@ Version:	17062
 Release:	2
 Summary:	Provides an At-Begin-Page hook
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bophook
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bophook
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bophook.doc.r%{version}.tar.xz
